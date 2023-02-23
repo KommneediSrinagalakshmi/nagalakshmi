@@ -1,0 +1,78 @@
+Bike ={
+    "name":"jupiter",
+    "speed":"60",
+    "cost":"100000",
+    
+}
+print(Bike)
+**********************************************
+def fun_name(num1, num2):
+    print("ans: ", num1*num2)
+    
+fun_name(10,20)
+********************************************    
+  def fun_name(num1, num2,op):
+    if op == "+":
+        print(num1 + num2)
+    elif op == "-" :
+        print(num1 - num2)
+    elif op == "*" :
+        print(num1 * num2)
+    
+fun_name(10,20,"*")
+********************************************** 
+THERE ARE 4 TYPES OF FUNCTIONS
+
+1)REGULAR FUNCTIONS
+2)DEFAULT VALUE FUNCTION
+3)KEYWORD ARGUMENT FUNCTION
+4)VARIABLE LENGTH FUNCTION
+******************************************
+n = 5
+5 16 8 4 2 1
+
+n = 7
+7 22 11 34 17 52 26 13 40 20 10 5 16 8 4 2 1
+ n = 6
+6 3 10 5 16 8 4 2 1
+if it is odd *3+1
+'''''''''even/2
+********************************************************************************
+OOPS
+class Student:
+    name = "student1"
+    age = 18
+    s_class = "ECE-A"
+    year = 3
+    
+ob1 = Student()
+print(ob1.name)
+print(ob1.age)
+print(ob1.year)
+*******************************************************************************
+name = "siri"
+age =  100
+id = " Abc10001"
+
+print( f"hello {name} your age is {100} and id is {Abc10001}
+age =  100
+id = " Abc10001"
+
+print("hello {} your age is {} and id is {}".format(name,id,age))
+*******************************************************************************
+class Student:
+name="student1"
+roll = "20a31a04name = "Siri13"
+
+def print_details (self):
+print(f"name: {name} and roll:{roll}")
+ob1=Student()
+ob1.print_details()
+********************************************************************************
+CREATE A CLASS FOR VEHICLE
+  
+
+
+   
+
+      

@@ -1,0 +1,139 @@
+ABCEDERIAN SERIES
+
+str1='ABCDEFG'
+str2="ate"
+for l in str1:
+    print((l+str2), end=" ")
+o/p:Aate Bate Cate Date Eate Fate Gate
+
+WRITE A PROGRAM TO EVALUATE LIST OF A CUBES TILL THE RANGE OF 10
+cubes = []
+for i in range(11)
+    cubes.append(i**3)
+print(cubes) 
+o/p:[0,1,8,27,64,125,216,343,512,729,1000]
+
+WRITE A PROGRAM THE SUM AND MEAN OF SERIES 0 T0 10   
+abc=[1,2,3,4,5,6,7,8,9,10]
+sum=0
+for i in abc :
+    sum+=i
+print(sum)
+print(sum/len(abc))
+o/p:55
+5.5
+
+OPERATIONS OF LIST
+len
+repitition
+in
+not
+a= [27, 0, 8, 7]
+print(max(a))
+o/p:27
+a= [1,2,3,4]
+print(sum(a))
+o/p:10
+ALL
+ANY
+LIST
+SORT
+ab= [-0, -99, 99, 231, 86]
+x= sorted(ab)
+print(x)
+o/p:[-99,0,86,99,231]
+ab= [-0, -99, 99, 231, 86]
+ab.append(13)
+print(ab)
+o/p:[0,-99,99.231,86,13]
+ab= [6,3,7,0,3,7,6,0]
+ab.insert(3,100)
+print(ab)
+o/p:[6,3,7,100,0,7,6,0]
+ab= [6,3,7,0,3,7,6,0]
+ab.remove(0)
+print(ab)
+o/p:[6,3,7,3,7,6,0]
+
+HANOII
+def hanoi (n, a, b, c):
+    if n>0:
+        hanoi(n-1, a, c, b)
+        if a:
+            c.append(a.pop)
+        hanoi(n-1, b, a, c)
+a=[1,2,3,4]
+b=[]
+c=[]
+hanoi(len(a), a,b, c)
+print(a,b,c)
+o/p:[] [] [1,2,3,4]
+
+
+num= [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+print(sum(num))
+O/P:55
+
+num= [10, -1, -9, 2, 8, 5]
+num.sort()
+print(num(sum))
+
+WRITE A PROGRAM TO COMPLIE A LIST OF CUBES FOR GIVEN NUMBER
+
+cubes=[]
+for i in range(11):
+cubes.append(i**30)
+print(cubes)
+
+cubes=[i**3 for i in range(11)]
+print(cubes)
+
+cubes=[i**3 for i in range(11)];print(cubes)
+
+
+
+list=[1,2,3,4,]
+i=0
+for j in list:
+    print('index',i,'=',j)
+    i+=1
+o/p:index 0=1
+index2=2
+index3=3
+index4=4
+n=int(input("enter number"))
+if n==0:
+    print("time estimated : 0 minutes")
+elif n in range(1,2001):
+    print("time estimated : 25 minutes")
+elif n in range(2001,4001):
+    print("time estimated : 35 minutes")
+elif n in range(4001,7001) :
+    print("time estimated : 45 minutes")
+
+o/p:2000
+25
+0,0,7,6,14,12,21,.........n
+FIND 15TH TERM AND 16TH TERM
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+    
+    
+
+    
